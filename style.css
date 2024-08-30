@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic";
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, rgba(169, 148, 29, 0.306), grey), url(./Full\ Moon.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    overflow-y: hidden;
+}
+
+form {
+    width: 80%;
+    height: auto;
+    margin: 80px;
+    padding: 50px;
+    color: #fff;
+    border-radius: 30px;
+    outline: none;
+}
+
+.header p,
+h2 {
+    margin: 15px 0;
+}
+
+.header p {
+    color: rgb(159, 159, 159);
+}
+
+.header h2 {
+    font-size: 2rem;
+}
+
+.header span {
+    color: rgb(0, 174, 255);
+}
+
+.header .member {
+    color: rgb(159, 159, 159);
+}
+
+.header .login {
+    color: rgb(0, 98, 255);
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background: rgba(255, 217, 0, 0.306);
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.email,
+.password {
+    width: 37%;
+    padding: 15px;
+}
+
+button {
+    margin-top: 20px;
+    color: #fff;
+    background: rgba(255, 217, 0, 0.306);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+
+.create {
+    margin: 0 30px;
+    background: rgb(0, 98, 255);
+}
